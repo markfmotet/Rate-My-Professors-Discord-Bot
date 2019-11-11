@@ -1,0 +1,21 @@
+{
+  "name": "rate-my-professors-discord-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "rateMyProfessorsDiscordBot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^11.5.1",
+    "ffmpeg-binaries": "^4.0.0",
+    "opusscript": "0.0.7",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "ytdl-core": "^0.29.7",
+    "ytdl-core-discord": "^1.0.3"
+  }
+}
