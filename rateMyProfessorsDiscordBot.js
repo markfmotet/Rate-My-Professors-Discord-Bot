@@ -90,7 +90,6 @@ client.on('message', message => {
                }
              
                // Uses JQuery/Cheerio to access numbers from the HTML file
-               
                var professorNameFirst = $('.pfname').text().trim();
                var professorNameLast = $('.plname').text().trim();
                var overallQuality = $('.grade').eq(0).text().trim();
